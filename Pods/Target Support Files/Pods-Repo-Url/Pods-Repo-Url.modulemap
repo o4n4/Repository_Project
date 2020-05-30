@@ -1,0 +1,6 @@
+framework module Pods_Repo_Url {
+  umbrella header "Pods-Repo-Url-umbrella.h"
+
+  export *
+  module * { export * }
+}
