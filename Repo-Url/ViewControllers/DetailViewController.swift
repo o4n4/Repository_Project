@@ -12,7 +12,6 @@ class DetailViewController: UIViewController {
    
    var repo:Repo!
    
-   
    @IBOutlet weak var userLabel: UILabel!
    @IBOutlet weak var forkLabel: UILabel!
    @IBOutlet weak var watchersLabel: UILabel!
@@ -33,6 +32,5 @@ class DetailViewController: UIViewController {
    
    @IBAction func dismiss() {
       dismiss(animated: true, completion: nil)
-      
    }
 }

@@ -71,7 +71,6 @@ extension RepoTableViewController {
    }
    
    
-   
    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
       
       let controller =  UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "DetailViewController") as! DetailViewController
